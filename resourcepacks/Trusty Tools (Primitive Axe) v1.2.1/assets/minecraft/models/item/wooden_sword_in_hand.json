@@ -1,0 +1,8 @@
+{
+	"credit": "Made by Zvezdov",
+	"parent": "minecraft:item/template_sword_in_hand",
+	"texture_size": [32, 32],
+	"textures": {
+		"texture": "item/wooden_sword_in_hand"
+	}
+}

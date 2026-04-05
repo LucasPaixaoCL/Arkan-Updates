@@ -1,0 +1,338 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"cases": [
+			{
+				"model": {
+					"type": "minecraft:select",
+					"cases": [
+						{
+							"model": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/crossbow_arrow"
+								},
+								"when": [
+									"ground",
+									"gui",
+									"fixed",
+									"on_shelf"
+							]
+						}
+					],
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "minecraft:item/crossbow_arrow_in_hand"
+					},
+					"property": "minecraft:display_context"
+				},
+				"when": "arrow"
+			},
+			{
+				"model": {
+					"type": "minecraft:select",
+					"cases": [
+						{
+							"model": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/crossbow_firework"
+								},
+								"when": [
+									"ground",
+									"gui",
+									"fixed",
+									"on_shelf"
+							]
+						}
+					],
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "minecraft:item/crossbow_firework_in_hand"
+					},
+					"property": "minecraft:display_context"
+				},
+				"when": "rocket"
+			}
+		],
+		"fallback": {
+			"type": "minecraft:condition",
+			"on_false": {
+				"type": "minecraft:select",
+					"cases": [
+						{
+							"model": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/crossbow"
+								},
+								"when": [
+									"ground",
+									"gui",
+									"fixed",
+									"on_shelf"
+							]
+						}
+					],
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "minecraft:item/crossbow_in_hand"
+					},
+					"property": "minecraft:display_context"
+			},
+			"on_true": {
+				"type": "minecraft:range_dispatch",
+				"entries": [
+					{
+						"model": {
+							"type": "minecraft:select",
+							"cases": [
+								{
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/crossbow_pulling_0"
+									},
+									"when": [
+										"ground",
+										"gui",
+										"fixed",
+										"on_shelf"
+									]
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/crossbow_pulling_in_hand_0"
+							},
+							"property": "minecraft:display_context"
+						},
+						"threshold": 0.1
+					},
+					{
+						"model": {
+							"type": "minecraft:select",
+							"cases": [
+								{
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/crossbow_pulling_0"
+									},
+									"when": [
+										"ground",
+										"gui",
+										"fixed",
+										"on_shelf"
+									]
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/crossbow_pulling_in_hand_1"
+							},
+							"property": "minecraft:display_context"
+						},
+						"threshold": 0.2
+					},
+					{
+						"model": {
+							"type": "minecraft:select",
+							"cases": [
+								{
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/crossbow_pulling_0"
+									},
+									"when": [
+										"ground",
+										"gui",
+										"fixed",
+										"on_shelf"
+									]
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/crossbow_pulling_in_hand_2"
+							},
+							"property": "minecraft:display_context"
+						},
+						"threshold": 0.3
+					},
+					{
+						"model": {
+							"type": "minecraft:select",
+							"cases": [
+								{
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/crossbow_pulling_1"
+									},
+									"when": [
+										"ground",
+										"gui",
+										"fixed",
+										"on_shelf"
+									]
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/crossbow_pulling_in_hand_3"
+							},
+							"property": "minecraft:display_context"
+						},
+						"threshold": 0.4
+					},
+					{
+						"model": {
+							"type": "minecraft:select",
+							"cases": [
+								{
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/crossbow_pulling_1"
+									},
+									"when": [
+										"ground",
+										"gui",
+										"fixed",
+										"on_shelf"
+									]
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/crossbow_pulling_in_hand_4"
+							},
+							"property": "minecraft:display_context"
+						},
+						"threshold": 0.5
+					},
+					{
+						"model": {
+							"type": "minecraft:select",
+							"cases": [
+								{
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/crossbow_pulling_1"
+									},
+									"when": [
+										"ground",
+										"gui",
+										"fixed",
+										"on_shelf"
+									]
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/crossbow_pulling_in_hand_5"
+							},
+							"property": "minecraft:display_context"
+						},
+						"threshold": 0.6
+					},
+					{
+						"model": {
+							"type": "minecraft:select",
+							"cases": [
+								{
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/crossbow_pulling_2"
+									},
+									"when": [
+										"ground",
+										"gui",
+										"fixed",
+										"on_shelf"
+									]
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/crossbow_pulling_in_hand_6"
+							},
+							"property": "minecraft:display_context"
+						},
+						"threshold": 0.7
+					},
+					{
+						"model": {
+							"type": "minecraft:select",
+							"cases": [
+								{
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/crossbow_pulling_2"
+									},
+									"when": [
+										"ground",
+										"gui",
+										"fixed",
+										"on_shelf"
+									]
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/crossbow_pulling_in_hand_7"
+							},
+							"property": "minecraft:display_context"
+						},
+						"threshold": 0.8
+					},
+					{
+						"model": {
+							"type": "minecraft:select",
+							"cases": [
+								{
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/crossbow_pulling_2"
+									},
+									"when": [
+										"ground",
+										"gui",
+										"fixed",
+										"on_shelf"
+									]
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/crossbow_pulling_in_hand_8"
+							},
+							"property": "minecraft:display_context"
+						},
+						"threshold": 0.9
+					}
+				],
+				"fallback": {
+					"type": "minecraft:select",
+					"cases": [
+						{
+							"model": {
+								"type": "minecraft:model",
+								"model": "minecraft:item/crossbow_pulling_0"
+								},
+								"when": [
+									"ground",
+									"gui",
+									"fixed",
+									"on_shelf"
+							]
+						}
+					],
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "minecraft:item/crossbow_pulling_in_hand_0"
+					},
+					"property": "minecraft:display_context"
+				},
+				"property": "minecraft:use_duration",
+				"scale": 0.05
+			},
+			"property": "minecraft:using_item"
+		},
+		"property": "minecraft:charge_type"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "nexars_primitive_axe:item/primitive_axe"
+  }
+}

@@ -1,0 +1,9 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Zvezdov",
+	"parent": "minecraft:item/template_bow_in_hand",
+	"texture_size": [48, 48],
+	"textures": {
+		"texture": "item/bow_pulling_in_hand_5"
+	}
+}

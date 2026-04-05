@@ -1,0 +1,61 @@
+{
+  "data_version": 4,
+  "spawn_configuration": [
+    {
+      "weight": 5,
+      "min_group_size": 1,
+      "max_group_size": 2,
+      "type": "hybrid-birds:rooster",
+      "biomes": "hybrid-birds:rooster_spawn_biomes",
+      "group": "creature"
+    },
+    {
+      "weight": 3,
+      "min_group_size": 1,
+      "max_group_size": 3,
+      "type": "hybrid-birds:turkey",
+      "biomes": "hybrid-birds:turkey_spawn_biomes",
+      "group": "creature"
+    },
+    {
+      "weight": 5,
+      "min_group_size": 1,
+      "max_group_size": 3,
+      "type": "hybrid-birds:duck",
+      "biomes": "hybrid-birds:duck_spawn_biomes",
+      "group": "creature"
+    },
+    {
+      "weight": 3,
+      "min_group_size": 1,
+      "max_group_size": 3,
+      "type": "hybrid-birds:goose",
+      "biomes": "hybrid-birds:goose_spawn_biomes",
+      "group": "creature"
+    },
+    {
+      "weight": 1,
+      "min_group_size": 1,
+      "max_group_size": 2,
+      "type": "hybrid-birds:swan",
+      "biomes": "hybrid-birds:swan_spawn_biomes",
+      "group": "creature"
+    },
+    {
+      "weight": 2,
+      "min_group_size": 1,
+      "max_group_size": 2,
+      "type": "hybrid-birds:peacock",
+      "biomes": "minecraft:is_jungle",
+      "group": "creature"
+    },
+    {
+      "weight": 3,
+      "min_group_size": 1,
+      "max_group_size": 3,
+      "type": "hybrid-birds:guinea_fowl",
+      "biomes": "minecraft:is_savanna",
+      "group": "creature"
+    }
+  ]
+}

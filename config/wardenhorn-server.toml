@@ -1,0 +1,15 @@
+["Server Config for Warden Horn"]
+	#When true, Sonic Booms will stop at blocks.
+	stopAtBlocks = true
+	#Amount of damage a shriek from the Warden Horn will deal
+	#Range: 0.0 ~ 1000.0
+	damage = 10.0
+	#The amount of time, in seconds, it takes for a player to catch their breath before using the Warden Horn again (Whole Numbers Only)
+	#Range: 0 ~ 1000
+	rechargeTime = 11
+	#Number of blocks a shriek from the Warden Horn will travel (Whole Numbers Only)
+	#Range: 0 ~ 1000
+	range = 40
+	#The amount of knockback a shriek from the Warden Horn will deal
+	#Range: 0.0 ~ 1000.0
+	knockback = 1.1

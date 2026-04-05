@@ -1,0 +1,56 @@
+{
+  "model": {
+		"type": "minecraft:condition",
+		"on_false": {
+		"type": "minecraft:select",
+			"cases": [
+				{
+					"model": {
+						"type": "minecraft:model",
+						"model": "minecraft:item/shield_inventory"
+					},
+					"when": [
+						"ground",
+						"gui",
+						"fixed",
+						"on_shelf"
+					]
+				}
+			],
+			"fallback": {
+				"type": "minecraft:special",
+				"base": "minecraft:item/shield",
+				"model": {
+				"type": "minecraft:shield"
+			}
+		},
+		"property": "minecraft:display_context"
+	},
+	"on_true": {
+		"type": "minecraft:select",
+			"cases": [
+				{
+					"model": {
+						"type": "minecraft:model",
+						"model": "minecraft:item/shield_inventory"
+					},
+					"when": [
+						"ground",
+						"gui",
+						"fixed",
+						"on_shelf"
+					]
+				}
+			],
+			"fallback": {
+				"type": "minecraft:special",
+				"base": "minecraft:item/shield_blocking",
+				"model": {
+				"type": "minecraft:shield"
+			}
+		},
+		"property": "minecraft:display_context"
+	},
+	"property": "minecraft:using_item"
+	}
+}

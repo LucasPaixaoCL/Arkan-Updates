@@ -1,0 +1,25 @@
+{
+	"credit": "Made by Zvezdov",
+	"model": {
+		"type": "minecraft:select",
+		"cases": [
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/stone_shovel"
+				},
+				"when": [
+					"ground",
+					"gui",
+					"fixed",
+					"on_shelf"
+				]
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/stone_shovel_in_hand"
+		},
+		"property": "minecraft:display_context"
+	}
+}

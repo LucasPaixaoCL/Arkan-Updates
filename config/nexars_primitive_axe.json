@@ -1,0 +1,23 @@
+{
+  "difficultyMode": "SURVIVAL",
+  "blockLogBreakWithHand": true,
+  "requireTaggedTool": true,
+  "damageOnHitLog": false,
+  "handDamageAmount": 2.0,
+  "damageCooldownTicks": 10,
+  "damageStartAfterTicks": 100,
+  "handInjuryEnabled": true,
+  "hitsBeforeInjury": 5,
+  "injuryWeaknessDuration": 60,
+  "injuryFatigueDuration": 80,
+  "showHints": true,
+  "hintCooldownTicks": 100,
+  "playSounds": true,
+  "showParticles": true,
+  "improvedStickDrops": true,
+  "stickDropChance": 0.25,
+  "stickDropMax": 2,
+  "improvedFlintDrops": true,
+  "flintDropChance": 0.2,
+  "recipeDiscovery": true
+}

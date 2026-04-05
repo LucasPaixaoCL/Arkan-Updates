@@ -1,0 +1,21 @@
+{
+  "allowMovement": {
+    "de.rubixdev.inventorio.client.ui.InventorioScreen": true,
+    "fuzs.mindfuldarkness.client.gui.screens.PixelConfigScreen": true,
+    "journeymap.client.ui.fullscreen.Fullscreen": true,
+    "de.maxhenkel.camerautils.gui.ThirdPersonCameraScreen": true,
+    "vectorwing.farmersdelight.client.gui.CookingPotScreen": true,
+    "journeymap.client.ui.fullscreen.menu.PopupMenu": true,
+    "org.valkyrienskies.eureka.gui.engine.EngineScreen": true,
+    "org.valkyrienskies.eureka.gui.shiphelm.ShipHelmScreen": true,
+    "net.irisshaders.iris.gui.screen.ShaderPackScreen": true,
+    "betteradvancements.common.gui.BetterAdvancementsScreen": true,
+    "mezz.jei.gui.recipes.RecipesGui": true,
+    "journeymap.client.ui.component.ScrollPaneScreen": true,
+    "net.minecraft.class_433": true
+  },
+  "hideBackground": {
+    "fuzs.mindfuldarkness.client.gui.screens.PixelConfigScreen": true,
+    "mezz.jei.gui.recipes.RecipesGui": true
+  }
+}

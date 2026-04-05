@@ -1,0 +1,9 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by Zvezdov",
+	"parent": "minecraft:item/template_crossbow_in_hand",
+	"texture_size": [48, 48],
+	"textures": {
+		"texture": "item/crossbow_pulling_in_hand_1"
+	}
+}

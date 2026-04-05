@@ -1,0 +1,16 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "minecraft:mushroom_fields"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "alexsmobs:skreechers_can_spawn_wardens"
+      }
+    ]
+  ]
+}

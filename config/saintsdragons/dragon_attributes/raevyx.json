@@ -1,0 +1,70 @@
+{
+  "max_health": 180.0,
+  "armor": 8.0,
+  "flying_speed": 1.0,
+  "abilities": {
+    "dash": {
+      "damage": 10.0
+    },
+    "bite": {
+      "damage": 15.0
+    },
+    "horn_gore": {
+      "damage": 15.0
+    },
+    "lightning_beam": {
+      "damage": 35.0
+    }
+  },
+  "extra": {
+    "egg_loot_pillager_outpost": 0.2,
+    "summon_storm_supercharge_damage_multiplier": 2.0,
+    "egg_loot_shipwreck_treasure": 0.15,
+    "summon_storm_duration_ticks": 1200.0,
+    "taming_chance_base": 5.0,
+    "egg_hatch_chance_thunder": 1.0,
+    "taming_stun_health": 60.0,
+    "taming_chance_hearty": 3.0,
+    "wild_flying_speed_multiplier": 1.0,
+    "beam_regen_per_tick": 0.0025,
+    "egg_storm_instant_chance": 100.0,
+    "beam_drain_per_tick": 0.014,
+    "egg_loot_ancient_city": 0.15,
+    "summon_storm_supercharge_ticks": 1200.0,
+    "egg_hatch_chance_normal": 2.0,
+    "summon_storm_cooldown_ticks": 4800.0,
+    "egg_drop_chance": 0.12,
+    "legacy_taming": false,
+    "reactive_terrain_clearing_on_damage_tamed": false,
+    "reactive_terrain_clearing_on_damage": true,
+    "aggressive_wild": false
+  },
+  "hints": {
+    "taming_chance_base": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",
+    "taming_chance_chicken": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",
+    "taming_chance_beef": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",
+    "taming_chance_hearty": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",
+    "taming_chance": "Lower is easier: 1 = 100% per attempt, 100 = 1% per attempt",
+    "taming_chance_tropical": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",
+    "legacy_taming": "true = simple food taming, false = special mechanics (rodeo/low-health)",
+    "egg_hatch_chance_normal": "Lower = faster (1 = every random tick)",
+    "egg_hatch_chance_thunder": "Lower = faster during thunderstorms",
+    "egg_storm_instant_chance": "1 in N chance to instantly hatch when placed during a storm",
+    "egg_drop_chance": "Chance (0-1) for females to drop an egg on death",
+    "egg_loot_pillager_outpost": "Chance (0-1) for egg in pillager outpost chests",
+    "egg_loot_shipwreck_treasure": "Chance (0-1) for egg in shipwreck treasure chests",
+    "egg_loot_ancient_city": "Chance (0-1) for egg in ancient city chests",
+    "egg_loot_bastion_treasure": "Chance (0-1) for egg in bastion treasure chests",
+    "egg_loot_nether_bridge": "Chance (0-1) for egg in nether fortress chests",
+    "aggressive_wild": "true = wild dragons aggro on sight, false = only retaliate",
+    "griefing_enabled": "true = this dragon can break/destroy blocks (global dragonGriefingEnabled must also be true)",
+    "reactive_terrain_clearing_on_damage": "true = clear soft obstructing blocks when hurt (requires mobGriefing)",
+    "reactive_terrain_clearing_on_damage_tamed": "true = tamed dragons can also clear on hurt (off = safer bases)",
+    "taming_stun_health": "Health threshold for taming stun (0 = disable stun)",
+    "wild_flying_speed_multiplier": "Scales AI flight speed only for untamed dragons (1 = default, ridden flight unchanged)",
+    "summon_storm_cooldown_ticks": "Cooldown for Summon Storm (20 ticks = 1 second)",
+    "summon_storm_supercharge_ticks": "How long Summon Storm supercharge lasts (20 ticks = 1 second)",
+    "summon_storm_supercharge_damage_multiplier": "Damage multiplier applied while supercharged (1 = normal damage)",
+    "summon_storm_duration_ticks": "How long thunderstorm weather is enforced (20 ticks = 1 second)"
+  }
+}

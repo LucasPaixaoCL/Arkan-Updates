@@ -1,0 +1,27 @@
+{
+  "music.menu": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/menu",
+        "stream": true
+      }
+    ]
+  },
+  "music.creative": {
+    "replace": true,
+    "sounds": []
+  },
+  "music.game": {
+    "replace": true,
+    "sounds": []
+  },
+  "music.end": {
+    "replace": true,
+    "sounds": []
+  },
+  "music.nether": {
+    "replace": true,
+    "sounds": []
+  }
+}
