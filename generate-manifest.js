@@ -7,7 +7,23 @@ const BASE_URL = 'https://raw.githubusercontent.com/LucasPaixaoCL/Drakoria-updat
 // O link de download do Release que criaremos
 const RELEASE_URL = 'https://github.com/LucasPaixaoCL/Drakoria-updates/releases/download/assets/';
 
-const IGNORE = ['.git', '.github', 'generate-manifest.js', 'manifest-standard.json', 'manifest-low.json', 'node_modules', 'package.json', 'package-lock.json'];
+// Padrões de arquivos e pastas para IGNORAR (não sincronizar)
+const IGNORE_PATTERNS = [
+  '.git', 
+  '.github', 
+  'generate-manifest.js', 
+  'manifest-standard.json', 
+  'manifest-low.json', 
+  'node_modules', 
+  'package.json', 
+  'package-lock.json',
+  '.puzzle_cache', 
+  'journeymap/cache', 
+  'logs', 
+  'backups',
+  '.DS_Store',
+  'Thumbs.db'
+];
 
 // Arquivos Gigantes Mapeados Manualmente
 const LARGE_FILES = [
@@ -19,7 +35,7 @@ const LARGE_FILES = [
   {
     name: "loadingbackgrounds-medieval 6.0.zip",
     path: "resourcepacks/loadingbackgrounds-medieval 6.0.zip",
-    url: RELEASE_URL + "loadingbackgrounds-medieval%206.0.zip" // URL precisa ter o espaço codificado
+    url: RELEASE_URL + "loadingbackgrounds-medieval%206.0.zip"
   }
 ];
 
@@ -38,10 +54,19 @@ async function generate(preset) {
   const allFiles = await getFiles(root);
   const manifest = { version: Date.now().toString(), files: [] };
 
+  console.log(`🔍 Escaneando arquivos para o preset [${preset}]...`);
+
   // 1. Arquivos normais via GitHub Pages
   for (const fullPath of allFiles) {
     const relativePath = path.relative(root, fullPath).replace(/\\/g, '/');
-    if (IGNORE.some(ig => relativePath.startsWith(ig))) continue;
+    
+    // Ignora baseado nos padrões definidos
+    if (IGNORE_PATTERNS.some(pattern => relativePath.includes(pattern))) continue;
+
+    // Alerta se houver caracteres estranhos que podem quebrar o download
+    if (path.basename(relativePath).includes('%')) {
+        console.warn(`⚠️ Alerta: O arquivo "${relativePath}" contém o caractere '%'. Isso pode causar erros de download.`);
+    }
 
     const content = await fs.readFile(fullPath);
     const hash = crypto.createHash('sha1').update(content).digest('hex');
@@ -78,10 +103,10 @@ async function generate(preset) {
 }
 
 async function run() {
-  console.log('🚀 Iniciando geração de manifestos...');
+  console.log('🚀 Iniciando geração de manifestos otimizada...');
   await generate('standard');
   await generate('low');
-  console.log('✨ Processo concluído.');
+  console.log('✨ Processo concluído com sucesso.');
 }
 
 run().catch(console.error);
