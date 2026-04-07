@@ -3,6 +3,12 @@
   "armor": 8.0,
   "flying_speed": 0.0,
   "abilities": {
+    "horn_gore_phase1": {
+      "damage": 16.0
+    },
+    "dash_tail_swipe": {
+      "damage": 14.0
+    },
     "dash_claw": {
       "damage": 16.0
     },
@@ -17,12 +23,6 @@
     },
     "horn_gore_phase2": {
       "damage": 20.8
-    },
-    "horn_gore_phase1": {
-      "damage": 16.0
-    },
-    "dash_tail_swipe": {
-      "damage": 14.0
     }
   },
   "extra": {
@@ -30,10 +30,10 @@
     "egg_hatch_chance_normal": 3.0,
     "taming_chance": 6.0,
     "swim_speed": 1.45,
-    "legacy_taming": false,
     "reactive_terrain_clearing_on_damage_tamed": false,
     "reactive_terrain_clearing_on_damage": true,
-    "aggressive_wild": false
+    "aggressive_wild": false,
+    "legacy_taming": false
   },
   "hints": {
     "taming_chance_base": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",

@@ -3,12 +3,6 @@
   "armor": 4.0,
   "flying_speed": 0.6,
   "abilities": {
-    "magma_volley": {
-      "damage": 20.0
-    },
-    "bite": {
-      "damage": 12.0
-    },
     "slash_grab_hit2": {
       "damage": 7.0
     },
@@ -17,19 +11,25 @@
     },
     "slash_grab_hit1": {
       "damage": 5.0
+    },
+    "magma_volley": {
+      "damage": 20.0
+    },
+    "bite": {
+      "damage": 12.0
     }
   },
   "extra": {
-    "taming_chance_hearty": 2.0,
     "taming_chance_base": 4.0,
     "wild_flying_speed_multiplier": 1.0,
     "fire_body_self_damage_on_crash": 40.0,
     "egg_hatch_chance_normal": 2.0,
     "egg_drop_chance": 0.12,
     "fire_body_explosion_damage": 200.0,
-    "aggressive_wild": false,
+    "taming_chance_hearty": 2.0,
     "reactive_terrain_clearing_on_damage_tamed": false,
-    "reactive_terrain_clearing_on_damage": true
+    "reactive_terrain_clearing_on_damage": true,
+    "aggressive_wild": false
   },
   "hints": {
     "taming_chance_base": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",

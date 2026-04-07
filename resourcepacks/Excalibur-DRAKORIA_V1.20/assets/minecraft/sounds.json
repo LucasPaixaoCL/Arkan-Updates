@@ -3,7 +3,11 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/menu",
+        "name": "music/menu/menu",
+        "stream": true
+      },
+      {
+        "name": "music/menu/menu2",
         "stream": true
       }
     ]

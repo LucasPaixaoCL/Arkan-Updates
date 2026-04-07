@@ -1,16 +1,16 @@
-#Sat Apr 04 02:01:48 PDT 2026
-SELECT_BOX=false
-ambient_brightness=1.8
-MOTION_BLUR=true
-PER_BIOME_ENVIRONMENT=false
-CloudLayer0_height=320
-TORCH_R=0.9
+#Tue Apr 07 04:49:26 PDT 2026
 CHOOSE_RANDOM_WEATHER_PROFILE=true
-moon_illuminance=90.0
+CloudLayer0_height=320
 CloudLayer1_height=600
 CloudLayer2_height=1500
+MIN_LIGHT_AMOUNT=2.5
+MOTION_BLUR=true
 MOTION_BLUR_STRENGTH=1.5
+PER_BIOME_ENVIRONMENT=false
+SELECT_BOX=false
 SWAMP_UNIFORM_DENSITY=0.1
 TORCH_G=0.7
-MIN_LIGHT_AMOUNT=6.0
+TORCH_R=0.9
+ambient_brightness=1.5
 fstop=4.0
+moon_illuminance=90.0

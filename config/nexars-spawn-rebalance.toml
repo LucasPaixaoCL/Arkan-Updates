@@ -1,0 +1,29 @@
+# Nexar's Spawn Rebalance
+# Values are strings in percent format: "100%" = 1.0, "75%" = 0.75
+
+global_multiplier = "120%"
+vanilla_multiplier = "200%"
+modded_multiplier = "70%"
+debug_logging = false
+dry_run = false
+
+blacklist = [
+  # "examplemod:overpowered_mob"
+]
+
+[modifiers_by_mod]
+"alexsmobs:*" = "70%"
+"saintsdragons:*" = "2%"
+
+[modifiers_by_entity]
+"minecraft:zombie" = "200%"
+
+[modifiers_by_biome."minecraft:plains"]
+# "alexsmobs:*" = "80%"
+# "alexsmobs:void_worm" = "90%"
+
+[modifiers_by_biome_tag."#minecraft:is_forest"]
+# "minecraft:zombie" = "120%"
+
+[modifiers_by_dimension."minecraft:the_nether"]
+# "alexsmobs:*" = "60%"

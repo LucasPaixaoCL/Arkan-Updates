@@ -5,7 +5,7 @@
     "villagersFear": true,
     "animalsFear": true,
     "generate.skeletons": true,
-    "generate.skeletonChance": 0.0033333333333333335,
+    "generate.skeletonChance": 0.001,
     "generate.denGoldAmount": 0.25,
     "generate.oreRatio": 0.022222222222222223,
     "griefing": false,

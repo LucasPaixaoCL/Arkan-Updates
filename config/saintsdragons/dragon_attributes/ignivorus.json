@@ -3,6 +3,18 @@
   "armor": 4.0,
   "flying_speed": 0.4,
   "abilities": {
+    "wing_swipe": {
+      "damage": 15.0
+    },
+    "magma_pillar": {
+      "damage": 18.0
+    },
+    "bulldoze": {
+      "damage": 10.0
+    },
+    "stomp": {
+      "damage": 18.0
+    },
     "fire_breath": {
       "damage": 80.0
     },
@@ -20,31 +32,9 @@
     },
     "bite": {
       "damage": 50.0
-    },
-    "wing_swipe": {
-      "damage": 15.0
-    },
-    "magma_pillar": {
-      "damage": 18.0
-    },
-    "bulldoze": {
-      "damage": 10.0
-    },
-    "stomp": {
-      "damage": 18.0
     }
   },
   "extra": {
-    "fire_breath_ignite_block_chance": 1.0,
-    "phase2_decision_max_ticks": 120.0,
-    "phase2_toggle_off_chance": 0.05,
-    "fire_breath_flame_lifetime_multiplier": 1.0,
-    "taming_chance_hearty": 4.0,
-    "taming_chance_base": 7.0,
-    "fire_breath_flame_spawn_multiplier": 1.0,
-    "fire_breath_flame_speed_multiplier": 1.0,
-    "phase2_toggle_on_chance": 0.85,
-    "egg_hatch_chance_normal": 9.0,
     "wild_flying_speed_multiplier": 1.0,
     "egg_drop_chance": 0.12,
     "taming_stun_health": 100.0,
@@ -55,10 +45,20 @@
     "egg_loot_ancient_city": 0.1,
     "ultimate_penalty_health": 50.0,
     "fire_breath_regen_per_tick": 0.0025,
-    "legacy_taming": false,
+    "fire_breath_ignite_block_chance": 1.0,
+    "phase2_decision_max_ticks": 120.0,
+    "phase2_toggle_off_chance": 0.05,
+    "fire_breath_flame_lifetime_multiplier": 1.0,
+    "taming_chance_hearty": 4.0,
+    "taming_chance_base": 7.0,
+    "fire_breath_flame_spawn_multiplier": 1.0,
+    "fire_breath_flame_speed_multiplier": 1.0,
+    "phase2_toggle_on_chance": 0.85,
+    "egg_hatch_chance_normal": 9.0,
     "reactive_terrain_clearing_on_damage_tamed": false,
     "reactive_terrain_clearing_on_damage": true,
-    "aggressive_wild": false
+    "aggressive_wild": false,
+    "legacy_taming": false
   },
   "hints": {
     "taming_chance_base": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",

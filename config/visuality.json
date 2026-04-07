@@ -6,8 +6,8 @@
   "waterCircles": {
     "density": 10,
     "radius": 16,
-    "enabled": true,
-    "colored": true
+    "enabled": false,
+    "colored": false
   },
   "hitParticlesEnabled": true,
   "hitParticleEntries": [

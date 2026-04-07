@@ -1,0 +1,69 @@
+#######################################################################################################################
+# Mob Control Config
+#######################################################################################################################
+# NOTE: Rules are executed from top to bottom, and the first rule that matches all conditions will take precedence.
+
+[general]
+debug=false
+use-generation-check=false
+
+#######################################################################################################################
+# Add your custom rules below the next line
+#######################################################################################################################
+
+[[mob]]
+name=[
+  "saintsdragons:raevyx",
+  "saintsdragons:stegonaut",
+  "saintsdragons:cindervane",
+  "saintsdragons:nulljaw",
+  "saintsdragons:ignivorus"
+]
+
+[[mob.rule]]
+type=["natural"]
+run=1
+max-per-mob=3
+max-per-player=1
+max-nearby=1
+max-nearby-range=128
+
+[[mob]]
+name="saintsdragons:ivy_oleander"
+
+[[mob.rule]]
+type=["natural"]
+run=10
+
+[[mob]]
+name=[
+  "alexsmobs:cachalot_whale",
+  "alexsmobs:komodo_dragon",
+  "alexsmobs:fly",
+  "alexsmobs:cosmic_cod"
+]
+
+[[mob.rule]]
+type=["natural"]
+run=20
+max-per-player=2
+max-nearby=1
+max-nearby-range=96
+
+[[mob]]
+name="alexsmobs:raccoon"
+
+[[mob.rule]]
+type=["natural"]
+run=50
+
+[[mob]]
+name="alexsmobs:*"
+
+[[mob.rule]]
+type=["natural"]
+run=70
+
+#######################################################################################################################
+# Add your custom rules above the previous line
+#######################################################################################################################

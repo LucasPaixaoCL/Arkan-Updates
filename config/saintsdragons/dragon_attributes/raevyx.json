@@ -3,20 +3,26 @@
   "armor": 8.0,
   "flying_speed": 1.0,
   "abilities": {
-    "dash": {
-      "damage": 10.0
-    },
-    "bite": {
-      "damage": 15.0
-    },
     "horn_gore": {
       "damage": 15.0
     },
     "lightning_beam": {
       "damage": 35.0
+    },
+    "dash": {
+      "damage": 10.0
+    },
+    "bite": {
+      "damage": 15.0
     }
   },
   "extra": {
+    "beam_drain_per_tick": 0.014,
+    "egg_loot_ancient_city": 0.15,
+    "summon_storm_supercharge_ticks": 1200.0,
+    "egg_hatch_chance_normal": 2.0,
+    "summon_storm_cooldown_ticks": 4800.0,
+    "egg_drop_chance": 0.12,
     "egg_loot_pillager_outpost": 0.2,
     "summon_storm_supercharge_damage_multiplier": 2.0,
     "egg_loot_shipwreck_treasure": 0.15,
@@ -28,16 +34,10 @@
     "wild_flying_speed_multiplier": 1.0,
     "beam_regen_per_tick": 0.0025,
     "egg_storm_instant_chance": 100.0,
-    "beam_drain_per_tick": 0.014,
-    "egg_loot_ancient_city": 0.15,
-    "summon_storm_supercharge_ticks": 1200.0,
-    "egg_hatch_chance_normal": 2.0,
-    "summon_storm_cooldown_ticks": 4800.0,
-    "egg_drop_chance": 0.12,
-    "legacy_taming": false,
     "reactive_terrain_clearing_on_damage_tamed": false,
     "reactive_terrain_clearing_on_damage": true,
-    "aggressive_wild": false
+    "aggressive_wild": false,
+    "legacy_taming": false
   },
   "hints": {
     "taming_chance_base": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",

@@ -3,24 +3,24 @@
   "armor": 15.0,
   "flying_speed": 0.0,
   "abilities": {
+    "chin_slam": {
+      "damage": 8.0
+    },
     "bite": {
       "damage": 5.0
     },
     "ground_eating": {
       "damage": 10.0
-    },
-    "chin_slam": {
-      "damage": 8.0
     }
   },
   "extra": {
+    "taming_chance_base": 1.0,
     "egg_drop_chance": 0.12,
     "egg_hatch_chance_normal": 2.0,
     "taming_chance_hearty": 1.0,
-    "taming_chance_base": 1.0,
-    "aggressive_wild": false,
     "reactive_terrain_clearing_on_damage_tamed": false,
-    "reactive_terrain_clearing_on_damage": true
+    "reactive_terrain_clearing_on_damage": true,
+    "aggressive_wild": false
   },
   "hints": {
     "taming_chance_base": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",
