@@ -1,6 +1,6 @@
 {
-  "version": "1776788138092",
-  "generatedAt": "2026-04-21T16:15:38.092Z",
+  "version": "1776790677144",
+  "generatedAt": "2026-04-21T16:57:57.144Z",
   "preset": "low",
   "files": [
     {
@@ -7004,25 +7004,11 @@
       "url": "https://raw.githubusercontent.com/LucasPaixaoCL/Arkan-Updates/main/mods/neruina-3.2.2%252B1.20.1-fabric.jar"
     },
     {
-      "name": "nexars-primitive-axe-0.8.14.jar",
-      "path": "mods/nexars-primitive-axe-0.8.14.jar",
-      "hash": "b9f896023cde7e4739bd018bc639eb2227487f95",
-      "size": 52797,
-      "url": "https://raw.githubusercontent.com/LucasPaixaoCL/Arkan-Updates/main/mods/nexars-primitive-axe-0.8.14.jar"
-    },
-    {
       "name": "nexars-primitive-axe-0.8.15.jar",
       "path": "mods/nexars-primitive-axe-0.8.15.jar",
       "hash": "20bbbde1dbd2868e6e0e0fe5d734dc102716605e",
       "size": 165700,
       "url": "https://raw.githubusercontent.com/LucasPaixaoCL/Arkan-Updates/main/mods/nexars-primitive-axe-0.8.15.jar"
-    },
-    {
-      "name": "nexars-revive-0.9.9.jar",
-      "path": "mods/nexars-revive-0.9.9.jar",
-      "hash": "bc0123f19f4f7c3228ac2b01bc095c63eceaf87a",
-      "size": 88949,
-      "url": "https://raw.githubusercontent.com/LucasPaixaoCL/Arkan-Updates/main/mods/nexars-revive-0.9.9.jar"
     },
     {
       "name": "nexars-revive-2.0.6.jar",
