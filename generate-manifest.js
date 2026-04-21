@@ -7,7 +7,7 @@ const path = require('path');
  */
 const CONFIG = {
   BASE_URL: 'https://raw.githubusercontent.com/LucasPaixaoCL/Arkan-updates/main/',
-  RELEASE_URL: 'https://github.com/LucasPaixaoCL/Arkan-updates/releases/download/assets/',
+  RELEASE_URL: 'https://github.com/LucasPaixaoCL/Arkan-Updates/releases/download/v1.0.0-assets/',
   LARGE_FILE_THRESHOLD_MB: 50, // Arquivos maiores que isso vão para o Release automaticamente
   IGNORE_PATTERNS: [
     '.git', '.github', 'generate-manifest.js', 'manifest-standard.json', 
