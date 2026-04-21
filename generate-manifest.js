@@ -6,8 +6,8 @@ const path = require('path');
  * CONFIGURAÇÕES DO MANIFESTO
  */
 const CONFIG = {
-  BASE_URL: 'https://raw.githubusercontent.com/LucasPaixaoCL/Drakoria-updates/main/',
-  RELEASE_URL: 'https://github.com/LucasPaixaoCL/Drakoria-updates/releases/download/assets/',
+  BASE_URL: 'https://raw.githubusercontent.com/LucasPaixaoCL/Arkan-updates/main/',
+  RELEASE_URL: 'https://github.com/LucasPaixaoCL/Arkan-updates/releases/download/assets/',
   LARGE_FILE_THRESHOLD_MB: 50, // Arquivos maiores que isso vão para o Release automaticamente
   IGNORE_PATTERNS: [
     '.git', '.github', 'generate-manifest.js', 'manifest-standard.json', 
@@ -87,7 +87,7 @@ async function generate(preset) {
 }
 
 async function run() {
-  console.log('🚀 Iniciando Gerador de Manifesto Drakoria v2.0');
+  console.log('🚀 Iniciando Gerador de Manifesto Arkan v2.0');
   const startTime = Date.now();
   
   await generate('standard');
