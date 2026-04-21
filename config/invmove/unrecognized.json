@@ -45,7 +45,14 @@
     "com.notium.bettercapes.screen.CreateCustomCapeScreen": true,
     "com.notium.bettercapes.screen.CustomCapeSelectScreen": true,
     "com.notium.bettercapes.screen.EditCustomCapeScreen": true,
-    "com.notium.bettercapes.screen.ConfigScreen": true
+    "com.notium.bettercapes.screen.ConfigScreen": true,
+    "com.yori3o.yo_hooks.common.client.gui.ConfigScreen": true,
+    "dev.isxander.yacl3.gui.YACLScreen": true,
+    "net.spellcraftgaming.rpghud.gui.GuiSettingsMod": true,
+    "net.spellcraftgaming.rpghud.gui.GuiSettingsModColor": true,
+    "com.iafenvoy.iceandfire.screen.gui.DragonScreen": true,
+    "com.iafenvoy.iceandfire.screen.gui.HippogryphScreen": true,
+    "com.drakoria.nexarsdrakoriaid.client.NexarsDrakoriaIdConfigScreen": true
   },
   "hideBackground": {
     "fuzs.mindfuldarkness.client.gui.screens.PixelConfigScreen": true,

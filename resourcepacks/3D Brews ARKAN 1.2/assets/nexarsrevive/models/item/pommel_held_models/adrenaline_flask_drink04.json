@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/pommel_held_models/potion_drink04",
+  "textures": {
+    "3": "nexarsrevive:item/pommel_held_models/adrenaline_flask_drink"
+  }
+}

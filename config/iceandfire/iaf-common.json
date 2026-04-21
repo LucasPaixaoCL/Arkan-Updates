@@ -5,7 +5,7 @@
     "villagersFear": true,
     "animalsFear": true,
     "generate.skeletons": true,
-    "generate.skeletonChance": 0.001,
+    "generate.skeletonChance": 9.0E-4,
     "generate.denGoldAmount": 0.25,
     "generate.oreRatio": 0.022222222222222223,
     "griefing": false,
@@ -16,7 +16,7 @@
     "attackDamageFire": 2.0,
     "attackDamageIce": 2.5,
     "attackDamageLightning": 3.5,
-    "maxFlight": 800,
+    "maxFlight": 2032,
     "goldSearchLength": 30,
     "canHealFromBiting": true,
     "canDespawn": true,
@@ -38,7 +38,7 @@
   },
   "hippogryphs": {
     "spawn": true,
-    "spawnWeight": 1,
+    "spawnWeight": 0,
     "fightSpeedMod": 1.0
   },
   "pixie": {
@@ -62,7 +62,7 @@
     "maxHealth": 100.0
   },
   "deathworm": {
-    "spawnChance": 0.01,
+    "spawnChance": 0.009,
     "targetSearchLength": 48,
     "maxHealth": 10.0,
     "attackDamage": 3.0,
@@ -77,7 +77,7 @@
     "chickensLayRottenEggs": true
   },
   "bird": {
-    "spawnChance": 0.0125,
+    "spawnChance": 0.1,
     "targetSearchLength": 48,
     "featherDropChance": 0.04,
     "featherAttackDamage": 1.0,
@@ -87,14 +87,14 @@
   },
   "troll": {
     "spawn": true,
-    "spawnWeight": 60,
+    "spawnWeight": 90,
     "dropWeapon": true,
     "maxHealth": 50.0,
     "attackDamage": 10.0
   },
   "amphithere": {
     "spawn": false,
-    "spawnWeight": 20,
+    "spawnWeight": 50,
     "villagerSearchLength": 48.0,
     "tameTime": 400,
     "flightSpeed": 1.75,
@@ -102,7 +102,7 @@
     "attackDamage": 7.0
   },
   "seaSerpent": {
-    "spawnChance": 0.004,
+    "spawnChance": 0.002,
     "griefing": true,
     "baseHealth": 20.0,
     "attackDamage": 4.0
@@ -116,7 +116,7 @@
     "maxHealth": 250.0
   },
   "hippocampus": {
-    "spawnChance": 0.005,
+    "spawnChance": 0.001,
     "swimSpeedMod": 1.0
   },
   "ghost": {
@@ -138,20 +138,20 @@
     "dragonLightningMaxSearchCount": 10
   },
   "worldgen": {
-    "dangerousDistanceLimit": 1500.0,
-    "generateFireDragonCaveChance": 0.5,
-    "generateFireDragonRoostChance": 0.5,
-    "generateIceDragonCaveChance": 0.5,
-    "generateIceDragonRoostChance": 0.5,
-    "generateLightningDragonCaveChance": 0.5,
-    "generateLightningDragonRoostChance": 0.5,
-    "generateCyclopsCaveChance": 0.5,
-    "generateGorgonTempleChance": 0.5,
-    "generateGraveYardChance": 0.5,
-    "generateHydraCaveChance": 0.5,
-    "generateMausoleumChance": 0.5,
+    "dangerousDistanceLimit": 3000.0,
+    "generateFireDragonCaveChance": 0.3,
+    "generateFireDragonRoostChance": 0.2,
+    "generateIceDragonCaveChance": 0.3,
+    "generateIceDragonRoostChance": 0.2,
+    "generateLightningDragonCaveChance": 0.3,
+    "generateLightningDragonRoostChance": 0.2,
+    "generateCyclopsCaveChance": 0.3,
+    "generateGorgonTempleChance": 0.3,
+    "generateGraveYardChance": 0.7,
+    "generateHydraCaveChance": 0.4,
+    "generateMausoleumChance": 0.4,
     "generatePixieVillageChance": 0.5,
-    "generateSirenIslandChance": 0.5
+    "generateSirenIslandChance": 0.3
   },
   "misc": {
     "enableDragonSeeker": true,

@@ -42,9 +42,9 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["Moonlight Mods Dynamic Assets","create:dynamic_data","vanilla","phantasm:compat_farmersdelight","visualoverhaul:rounddiscs","fabric","minecraft:physicsmod","continuity:default","continuity:glass_pane_culling_fix","file/Excalibur_Lootr_v1.1.zip","file/Ribbits_ Excalibur-Addon_Resource _Pack_1.0.zip","file/Excalibur Waystones 1.0.zip","file/FarmersDelightExcaliburSupport.zip","bloomingnature:bushy_leaves","a_good_place:default_animations","visualoverhaul:nobrewingbottles","visualoverhaul:fancyfurnace","visualoverhaul:coloredwaterbucket","file/§f§lActually §6§l3D §r§aPlants§7.zip","file/Excalibur-ARKAN_V1.20","file/Enchanting%20Table%20Magic%20Circle%20v2.4%20(1.19%20-%201.20.4).zip","file/Luminous1.4.zip","file/Better Minecarts.zip","file/Fresh Food 1.3.3.zip","file/Trusty Tools v1.2.1.zip","file/Farm%203D.zip","file/Overdetailed Saplings 1.20.1.zip","file/bushy-leaves-1-6-5.zip","file/§e§lAllure 3D Plants§r§0.zip","file/Refined Buckets 2.2.zip","file/3D Brews FD MilkBottle 2.4.2","file/Trusty Tools (Primitive Axe) v1.2.1","file/3D-animated-totem-of-undying-1.21_11.zip","file/Prettier-Horses-1.4.1(Fresh-Animations).zip","file/Os\u0027 Cleaner Signs with White Background.zip","file/FA%2BQuivers-v2.2.zip","file/FA%2BAll_Extensions-v1.8.zip","file/Freshly Modded 3.0.1.zip","file/FreshAnimations_v1.10.4.zip","file/HumanEraVillagersIllagers[3.91.2].zip","file/§3Blue\u0027s §fBetter Zombies §7v0.13.zip","file/FA%2BSpiders-v2.1.zip","file/Arkan_Splashes_Only_Resourcepack"]
-incompatibleResourcePacks:["visualoverhaul:rounddiscs","minecraft:physicsmod","file/Excalibur_Lootr_v1.1.zip","file/Excalibur Waystones 1.0.zip","file/FarmersDelightExcaliburSupport.zip","visualoverhaul:nobrewingbottles","visualoverhaul:fancyfurnace","visualoverhaul:coloredwaterbucket","file/§f§lActually §6§l3D §r§aPlants§7.zip","file/Fresh Food 1.3.3.zip","file/Trusty Tools v1.2.1.zip","file/Farm%203D.zip","file/§e§lAllure 3D Plants§r§0.zip","file/3D Brews FD MilkBottle 2.4.2","file/Trusty Tools (Primitive Axe) v1.2.1","file/§3Blue\u0027s §fBetter Zombies §7v0.13.zip"]
-lastServer:
+resourcePacks:["Moonlight Mods Dynamic Assets","create:dynamic_data","vanilla","phantasm:compat_farmersdelight","visualoverhaul:rounddiscs","fabric","minecraft:physicsmod","continuity:default","continuity:glass_pane_culling_fix","file/Excalibur-ARKAN_V1.20","file/Excalibur_Lootr_v1.1.zip","file/Ribbits_ Excalibur-Addon_Resource _Pack_1.0.zip","file/Excalibur Waystones 1.0.zip","file/FarmersDelightExcaliburSupport.zip","bloomingnature:bushy_leaves","a_good_place:default_animations","visualoverhaul:nobrewingbottles","visualoverhaul:fancyfurnace","visualoverhaul:coloredwaterbucket","file/§f§lActually §6§l3D §r§aPlants§7.zip","file/Enchanting%20Table%20Magic%20Circle%20v2.4%20(1.19%20-%201.20.4).zip","file/Luminous1.4.zip","file/Better Minecarts.zip","file/Fresh Food 1.3.3.zip","file/Trusty Tools v1.2.1.zip","file/Farm%203D.zip","file/Overdetailed Saplings 1.20.1.zip","file/bushy-leaves-1-6-5.zip","file/§e§lAllure 3D Plants§r§0.zip","file/Refined Buckets 2.2.zip","file/3D Brews ARKAN 1.2","file/Trusty Tools (Primitive Axe) v1.2.1","file/Prettier-Horses-1.4.1(Fresh-Animations).zip","file/3D-animated-totem-of-undying-1.21_11.zip","file/Os\u0027 Cleaner Signs with White Background.zip","file/FA%2BQuivers-v2.2.zip","file/FA%2BAll_Extensions-v1.8.zip","file/Freshly Modded 3.0.1.zip","file/FreshAnimations_v1.10.4.zip","file/HumanEraVillagersIllagers[3.91.2].zip","file/§3Blue\u0027s §fBetter Zombies §7v0.13.zip","file/FA%2BSpiders-v2.1.zip","file/ARKAN-Splashes 1.0"]
+incompatibleResourcePacks:["visualoverhaul:rounddiscs","minecraft:physicsmod","file/Excalibur_Lootr_v1.1.zip","file/Excalibur Waystones 1.0.zip","file/FarmersDelightExcaliburSupport.zip","visualoverhaul:nobrewingbottles","visualoverhaul:fancyfurnace","visualoverhaul:coloredwaterbucket","file/§f§lActually §6§l3D §r§aPlants§7.zip","file/Fresh Food 1.3.3.zip","file/Trusty Tools v1.2.1.zip","file/Farm%203D.zip","file/§e§lAllure 3D Plants§r§0.zip","file/3D Brews ARKAN 1.2","file/Trusty Tools (Primitive Axe) v1.2.1","file/§3Blue\u0027s §fBetter Zombies §7v0.13.zip"]
+lastServer:capemod.net
 lang:en_us
 soundDevice:""
 chatVisibility:0
@@ -53,7 +53,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -120,22 +120,23 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
-key_Show Cape Selection Screen:key.keyboard.apostrophe
-key_Show Custom Cape Selection Screen:key.keyboard.unknown
 key_inventorio.keys.use_utility:key.keyboard.unknown
-key_inventorio.keys.next_utility:key.mouse.4
-key_inventorio.keys.prev_utility:key.mouse.5
+key_inventorio.keys.next_utility:key.mouse.5
+key_inventorio.keys.prev_utility:key.keyboard.unknown
 key_inventorio.keys.empty_utility:key.keyboard.unknown
 key_inventorio.keys.rocket_boost:key.keyboard.unknown
 key_inventorio.keys.open_player_settings:key.keyboard.unknown
 key_inventorio.keys.open_global_settings:key.keyboard.unknown
 key_key.namepain.showculled:key.keyboard.unknown
-key_key.valkyrienskies.ship_down:key.keyboard.c
+key_key.valkyrienskies.ship_down:key.keyboard.left.alt
 key_key.valkyrienskies.ship_cruise:key.keyboard.unknown
 key_key.yo_hooks.jump:key.keyboard.space
 key_key.yo_hooks.climb:key.keyboard.left.shift
 key_key.yo_hooks.climb_down:key.keyboard.left.control
 key_key.yo_hooks.prevent_use:key.keyboard.unknown
+key_key.nexars_iaf_flight_combat.dragon_aim_detach:key.keyboard.unknown
+key_key.nexars_iaf_flight_combat.dragon_aim_detach_extra:key.keyboard.unknown
+key_key.nexars_iaf_flight_combat.dragon_aim_detach_toggle:key.keyboard.unknown
 key_artifacts.key.helium_flamingo.activate:key.keyboard.unknown
 key_artifacts.key.night_vision_goggles.toggle:key.keyboard.unknown
 key_artifacts.key.universal_attractor.toggle:key.keyboard.unknown
@@ -145,9 +146,9 @@ key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_key.bridgingmod.toggle_bridging:key.keyboard.unknown
 key_key.camerautils.zoom:key.keyboard.caps.lock
 key_key.camerautils.third_person_cam_1:key.keyboard.v
-key_key.camerautils.third_person_cam_2:key.keyboard.unknown
+key_key.camerautils.third_person_cam_2:key.keyboard.f7
 key_key.camerautils.third_person_distance:key.keyboard.unknown
-key_key.camerautils.detach_camera:key.keyboard.unknown
+key_key.camerautils.detach_camera:key.keyboard.period
 key_key.camerautils.hide_player:key.keyboard.unknown
 key_key.camerautils.zoom_animation:key.keyboard.unknown
 key_key.camerautils.cinematic_camera_settings:key.keyboard.unknown
@@ -179,8 +180,8 @@ key_dsurround.text.keybind.diagnosticHud:key.keyboard.unknown
 key_key.exposure.camera_controls:key.keyboard.unknown
 key_key.flash.clear:key.keyboard.left.alt
 key_key.dragon_fireAttack:key.keyboard.r
-key_key.dragon_strike:key.keyboard.g
-key_key.dragon_down:key.keyboard.c
+key_key.dragon_strike:key.keyboard.unknown
+key_key.dragon_down:key.keyboard.left.alt
 key_key.dragon_change_view:key.keyboard.unknown
 key_keybind.invmove.toggleMove:key.keyboard.unknown
 key_key.jei.toggleOverlay:key.keyboard.o
@@ -233,6 +234,8 @@ key_key.journeymap.fullscreen.west:key.keyboard.left
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.h
 key_key.modmenu.open_menu:key.keyboard.unknown
 key_supplementaries.keybind.quiver:key.keyboard.unknown
+key_key.secondchance.revive:key.keyboard.unknown
+key_key.secondchance.give_up:key.keyboard.g
 key_physicsmod.keybinding.grabobject:key.keyboard.unknown
 key_physicsmod.keybinding.guiphysics:key.keyboard.f6
 key_physicsmod.keybinding.physicsmenu:key.keyboard.f7
@@ -264,16 +267,14 @@ key_key.punchy.third_person_test:key.keyboard.unknown
 key_key.saintsdragons.ascend:key.keyboard.unknown
 key_key.saintsdragons.descend:key.keyboard.left.alt
 key_key.saintsdragons.accelerate:key.keyboard.unknown
-key_key.saintsdragons.ability_tertiary:key.keyboard.g
-key_key.saintsdragons.ability_primary:key.keyboard.r
+key_key.saintsdragons.ability_tertiary:key.keyboard.r
+key_key.saintsdragons.ability_primary:key.keyboard.g
 key_key.saintsdragons.ability_secondary:key.keyboard.h
-key_key.saintsdragons.toggle_melee:key.keyboard.x
+key_key.saintsdragons.toggle_melee:key.keyboard.unknown
 key_key.saintsdragons.toggle_pitch_mode:key.keyboard.y
 key_key.saintsdragons.taunt:key.keyboard.unknown
 key_key.saintsdragons.toggle_dragon_ui:key.keyboard.unknown
 key_key.screenshot_viewer.open_screenshots_screen:key.keyboard.unknown
-key_key.secondchance.revive:key.keyboard.unknown
-key_key.secondchance.give_up:key.keyboard.g
 key_key.sittingplus.sit:key.keyboard.x
 key_treechop.key.toggle_chopping:key.keyboard.unknown
 key_treechop.key.toggle_felling:key.keyboard.unknown

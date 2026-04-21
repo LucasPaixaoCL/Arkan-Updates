@@ -1,7 +1,7 @@
 {
 	"version": 3,
-	"enableBridgingAssist": true,
-	"onlyBridgeWhenCrouched": false,
+	"enableBridgingAssist": false,
+	"onlyBridgeWhenCrouched": true,
 	"supportedBridgeAxes": "BOTH",
 	"supportedBridgeAxesWhenCrouched": "FALLBACK",
 	"delayPostBridging": 4,

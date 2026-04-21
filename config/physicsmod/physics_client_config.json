@@ -16,7 +16,7 @@
   "itemPhysics": true,
   "minecraftBlockBreakParticles": false,
   "vinePhysics": false,
-  "capePhysics": false,
+  "capePhysics": true,
   "fishingRodPhysics": true,
   "leashPhysics": true,
   "bannerPhysics": true,

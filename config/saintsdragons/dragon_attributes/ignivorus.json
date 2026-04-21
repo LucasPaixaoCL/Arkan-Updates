@@ -1,99 +1,101 @@
 {
   "max_health": 300.0,
   "armor": 4.0,
-  "flying_speed": 0.4,
+  "flying_speed": 0.2,
   "abilities": {
-    "wing_swipe": {
-      "damage": 15.0
+    "body_slam": {
+      "damage": 40.0
     },
-    "magma_pillar": {
+    "leap_slam": {
+      "damage": 50.0
+    },
+    "fire_breath": {
+      "damage": 80.0
+    },
+    "stomp": {
       "damage": 18.0
     },
     "bulldoze": {
       "damage": 10.0
     },
-    "stomp": {
+    "magma_pillar": {
       "damage": 18.0
     },
-    "fire_breath": {
-      "damage": 80.0
+    "wing_swipe": {
+      "damage": 15.0
     },
-    "leap_slam": {
+    "bite": {
       "damage": 50.0
-    },
-    "body_slam": {
-      "damage": 40.0
-    },
-    "fireball": {
-      "damage": 70.0
     },
     "ultimate": {
       "damage": 200.0
     },
-    "bite": {
-      "damage": 50.0
+    "fireball": {
+      "damage": 70.0
     }
   },
   "extra": {
-    "wild_flying_speed_multiplier": 1.0,
-    "egg_drop_chance": 0.12,
     "taming_stun_health": 100.0,
-    "phase2_decision_min_ticks": 60.0,
-    "fire_breath_drain_per_tick": 0.00625,
-    "egg_loot_bastion_treasure": 0.15,
-    "egg_loot_nether_bridge": 0.15,
-    "egg_loot_ancient_city": 0.1,
-    "ultimate_penalty_health": 50.0,
-    "fire_breath_regen_per_tick": 0.0025,
-    "fire_breath_ignite_block_chance": 1.0,
-    "phase2_decision_max_ticks": 120.0,
-    "phase2_toggle_off_chance": 0.05,
-    "fire_breath_flame_lifetime_multiplier": 1.0,
+    "fire_breath_flame_lifetime_multiplier": 0.2,
+    "wild_flying_speed_multiplier": 1.0,
+    "egg_hatch_time_ticks_normal": 36000.0,
     "taming_chance_hearty": 4.0,
-    "taming_chance_base": 7.0,
+    "egg_loot_nether_bridge": 0.15,
+    "egg_loot_bastion_treasure": 0.15,
     "fire_breath_flame_spawn_multiplier": 1.0,
+    "taming_chance_beef": 20.0,
+    "ultimate_penalty_health": 50.0,
+    "fire_breath_ignite_block_chance": 1.0,
+    "scale_drop_chance_brush": 0.35,
     "fire_breath_flame_speed_multiplier": 1.0,
+    "fire_breath_regen_per_tick": 0.0025,
     "phase2_toggle_on_chance": 0.85,
-    "egg_hatch_chance_normal": 9.0,
-    "reactive_terrain_clearing_on_damage_tamed": false,
-    "reactive_terrain_clearing_on_damage": true,
-    "aggressive_wild": false,
-    "legacy_taming": false
+    "egg_loot_ancient_city": 0.1,
+    "fire_breath_drain_per_tick": 0.00625,
+    "phase2_decision_max_ticks": 120.0,
+    "egg_drop_chance": 0.12,
+    "phase2_toggle_off_chance": 0.05,
+    "taming_chance_base": 7.0,
+    "phase2_decision_min_ticks": 60.0,
+    "legacy_taming": true,
+    "aggressive_wild": true,
+    "ultimate_trigger_health_fraction": 0.5
   },
   "hints": {
-    "taming_chance_base": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",
-    "taming_chance_chicken": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",
-    "taming_chance_beef": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",
-    "taming_chance_hearty": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",
-    "taming_chance": "Lower is easier: 1 = 100% per attempt, 100 = 1% per attempt",
-    "taming_chance_tropical": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",
+    "taming_chance_base": "Percent chance per feed, from 0 to 100",
+    "taming_chance_chicken": "Percent chance per feed, from 0 to 100",
+    "taming_chance_beef": "Percent chance per feed, from 0 to 100",
+    "taming_chance_hearty": "Percent chance per feed, from 0 to 100",
+    "taming_chance": "Percent chance base used by Varasuchus taming. Legacy food taming rolls it directly; rodeo taming converts it into a smaller per-tick chance",
+    "taming_chance_tropical": "Percent chance per feed for Varasuchus tropical fish taming, from 0 to 100",
     "legacy_taming": "true = simple food taming, false = special mechanics (rodeo/low-health)",
-    "egg_hatch_chance_normal": "Lower = faster (1 = every random tick)",
-    "egg_hatch_chance_thunder": "Lower = faster during thunderstorms",
-    "egg_storm_instant_chance": "1 in N chance to instantly hatch when placed during a storm",
-    "egg_drop_chance": "Chance (0-1) for females to drop an egg on death",
-    "egg_loot_pillager_outpost": "Chance (0-1) for egg in pillager outpost chests",
-    "egg_loot_shipwreck_treasure": "Chance (0-1) for egg in shipwreck treasure chests",
-    "egg_loot_ancient_city": "Chance (0-1) for egg in ancient city chests",
-    "egg_loot_bastion_treasure": "Chance (0-1) for egg in bastion treasure chests",
-    "egg_loot_nether_bridge": "Chance (0-1) for egg in nether fortress chests",
+    "egg_hatch_chance_normal": "Legacy random-tick hatch roll. Kept only for older egg configs",
+    "egg_hatch_chance_thunder": "Legacy thunder random-tick hatch roll. Kept only for older egg configs",
+    "egg_hatch_time_ticks_normal": "How long the egg takes to hatch in normal weather (20 ticks = 1 second)",
+    "egg_hatch_time_ticks_thunder": "How long the egg takes to hatch during thunderstorms (20 ticks = 1 second)",
+    "egg_drop_chance": "Chance from 0 to 1 for females to drop an egg on death",
+    "egg_loot_pillager_outpost": "Chance from 0 to 1 for an egg in pillager outpost chests",
+    "egg_loot_shipwreck_treasure": "Chance from 0 to 1 for an egg in shipwreck treasure chests",
+    "egg_loot_ancient_city": "Chance from 0 to 1 for an egg in ancient city chests",
+    "egg_loot_bastion_treasure": "Chance from 0 to 1 for an egg in bastion treasure chests",
+    "egg_loot_nether_bridge": "Chance from 0 to 1 for an egg in nether fortress chests",
     "aggressive_wild": "true = wild dragons aggro on sight, false = only retaliate",
-    "griefing_enabled": "true = this dragon can break/destroy blocks (global dragonGriefingEnabled must also be true)",
-    "reactive_terrain_clearing_on_damage": "true = clear soft obstructing blocks when hurt (requires mobGriefing)",
-    "reactive_terrain_clearing_on_damage_tamed": "true = tamed dragons can also clear on hurt (off = safer bases)",
     "taming_stun_health": "Health threshold for taming stun (0 = disable stun)",
-    "wild_flying_speed_multiplier": "Scales AI flight speed only for untamed dragons (1 = default, ridden flight unchanged)",
+    "scale_drop_chance_brush": "Chance from 0 to 1 to drop this dragon's scale when brushed",
+    "flying_speed": "Base rider flying speed. Wild flight uses this too before any wild-only multiplier is applied",
+    "wild_flying_speed_multiplier": "Multiplier for wild flying speed only (1 = default, ridden flight unchanged)",
     "summon_storm_cooldown_ticks": "Cooldown for Summon Storm (20 ticks = 1 second)",
     "summon_storm_supercharge_ticks": "How long Summon Storm supercharge lasts (20 ticks = 1 second)",
     "summon_storm_supercharge_damage_multiplier": "Damage multiplier applied while supercharged (1 = normal damage)",
     "summon_storm_duration_ticks": "How long thunderstorm weather is enforced (20 ticks = 1 second)",
     "ultimate_penalty_health": "Typical 1-10000",
-    "fire_breath_flame_spawn_multiplier": "0 = disable flame entities, 1 = default",
-    "fire_breath_flame_speed_multiplier": "Scales flame projectile speed (1 = default)",
-    "fire_breath_flame_lifetime_multiplier": "Scales flame lifetime ticks (1 = default)",
-    "fire_breath_ignite_block_chance": "0 = never ignite, 1 = always ignite",
-    "phase2_toggle_on_chance": "Chance (0-1) to switch from phase 1 to phase 2 when grounded",
-    "phase2_toggle_off_chance": "Chance (0-1) to switch from phase 2 back to phase 1 when grounded",
+    "ultimate_trigger_health_fraction": "Health fraction from 0 to 1. Example: 0.5 = trigger at 50% max health",
+    "fire_breath_flame_spawn_multiplier": "Multiplier for flame entity count (0 = disable, 1 = default)",
+    "fire_breath_flame_speed_multiplier": "Multiplier for flame projectile speed (1 = default)",
+    "fire_breath_flame_lifetime_multiplier": "Multiplier for flame lifetime ticks (1 = default)",
+    "fire_breath_ignite_block_chance": "Chance from 0 to 1 for igniting blocks",
+    "phase2_toggle_on_chance": "Chance from 0 to 1 to switch from phase 1 to phase 2 when grounded",
+    "phase2_toggle_off_chance": "Chance from 0 to 1 to switch from phase 2 back to phase 1 when grounded",
     "phase2_decision_min_ticks": "Minimum ticks between phase switch checks (20 ticks = 1 second)",
     "phase2_decision_max_ticks": "Maximum ticks between phase switch checks (20 ticks = 1 second)"
   }

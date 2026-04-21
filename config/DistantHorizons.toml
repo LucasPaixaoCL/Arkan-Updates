@@ -650,7 +650,7 @@ _version = 3
 				blocksToIgnore = "NON_COLLIDING"
 				#
 				# The radius of the mod's render distance. (measured in chunks)
-				lodChunkRenderDistanceRadius = 256
+				lodChunkRenderDistanceRadius = 1000
 				#
 				# What value should vanilla Minecraft's texture LodBias be? 
 				# If set to 0 the mod wont overwrite vanilla's default (which so happens to also be 0)
@@ -661,13 +661,13 @@ _version = 3
 				# AS_GRASS: all sides of dirt LOD's render using the top (green) color. 
 				# FADE_TO_DIRT: sides fade from grass to dirt. 
 				# AS_DIRT: sides render entirely as dirt.
-				grassSideRendering = "FADE_TO_DIRT"
+				grassSideRendering = "AS_GRASS"
 				#
 				# Should the blocks underneath avoided blocks gain the color of the avoided block? 
 				# 
 				# True: a red flower will tint the grass below it red. 
 				# False: skipped blocks will not change color of surface below them.
-				tintWithAvoidedBlocks = true
+				tintWithAvoidedBlocks = false
 				#
 				# This indicates how quickly LODs decrease in quality the further away they are. 
 				# Higher settings will render higher quality fake chunks farther away, 
